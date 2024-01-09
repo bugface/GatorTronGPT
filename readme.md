@@ -1,13 +1,16 @@
 # GatorTronGPT
 
 ## Project Overview
+
 ![overview](resources/study_design.png)
 
-## what is the this repo
-- this is the repo containing all the code for training, evaluating and generate medical text with GPT models based on Megatron-LM
-- this is the repo for GatorTronGPT project
+## GatorTronGPT
+
+- All the code for training, evaluating and generate medical text with GPT models based on Megatron-LM/Nemo 
+- All the code for convert checkpoints to Huggingface and finetuning with HF TRL (instruction finetuning and DPO alignment)
 
 ## GatorTronS model from Hugging Face 
+
 - The GatorTronS model is available from : https://huggingface.co/UFNLP/gatortronS
 - How to use
 ```python
@@ -23,7 +26,13 @@ print (encoded_output)
 ```
 
 ## Reference
-We have a preprint at
+
+- Official paper at npj Digital Medicine
+```
+Peng, C., Yang, X., Chen, A. et al. A study of generative large language model for medical research and healthcare. npj Digit. Med. 6, 210 (2023). https://doi.org/10.1038/s41746-023-00958-w
+```
+
+- Preprint at
 ```
 @misc{peng2023study,
       title={A Study of Generative Large Language Model for Medical Research and Healthcare}, 
